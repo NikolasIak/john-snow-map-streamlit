@@ -3,4 +3,4 @@ pandas
 pydeck
 Pillow
 openpyxl
-xlrd
+xlrd==1.2.0
