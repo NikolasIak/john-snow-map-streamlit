@@ -7,7 +7,7 @@ from PIL import Image
 
 #load the data from excel in a dateframe
 #a similar (with cleaner ) dataset is accessible online at https://docs.google.com/file/d/0B1k6zmQ4NXQlZ0dBcjFrNWhUSTA/edit
-data = pd.read_excel(r'CholeraPumps_Deaths.xls',engine="xlrd")
+data = pd.read_excel(r'CholeraPumps_Deaths.xls')
 df = pd.DataFrame(data, columns=['count','geometry'])
 
 #clean and replace the coordinates data to fit the PyDeck map 
